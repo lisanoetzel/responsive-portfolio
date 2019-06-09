@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Portfolio</title> 
+   <!-- Linking to css reset stylesheet first -->
+   <link rel="stylesheet" type= "text/css" href="assets/css/reset.css">
+  <!-- Linking to css stylesheet in assets > css folders -->
+  <link rel="stylesheet" type= "text/css" href="assets/css/style.css">
+</head>
+
+<body>
+   <!-- This is the banner for index, portfolio, contact htmls  -->
+  <header id="masthead">
+    <div class="container"> 
+      <a href="index.html" id="logo">Lisa Mameli Noetzel</a>
+      <!-- Nav Bar with anchors on right side --> 
+        <nav> 
+          <a href="index.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  
+ <!-- this is a container holding 1 smaller container with pictures & headers -->
+  <div id="big-container" class="container">
+
+    <!-- section is a container w/ form -->
+    <section class="main-container">
+        <h1>Contact</h1>
+
+        <form id="contact-form">
+            <ul>
+              <li>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="John Doe" required="required">
+              </li> 
+
+              <li>
+                  <label for="email">eMail</label>
+                  <input type="text" name="email" id="email" placeholder="johndoe@gmail.com" required="required">
+              </li> 
+
+              <!-- message space -->
+              <li>
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" required="required"></textarea>
+              </li> 
+            </ul>
+            <input type="submit" name="submit">
+        </form>
+       
+    </section>
+
+  </div>
+
+  <footer>
+    Copyright &copy;
+      <div class="container"></div>
+  </footer>
+    
+</body>    
+    
+</div> 
+</html>
+          
+           
